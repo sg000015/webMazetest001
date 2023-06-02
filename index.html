@@ -51,7 +51,8 @@
         target.innerHTML = ((parseFloat(prograss) * 120)).toFixed(0) + "%";
       }
       else {
-        target.innerHTML = "100%";
+        target.innerHTML = "";
+        window.document.querySelector("#loading").innerHTML = "게임을 불러오는중...";
       }
     }
 
